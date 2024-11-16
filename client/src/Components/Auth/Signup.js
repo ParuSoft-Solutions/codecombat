@@ -149,7 +149,7 @@ const Signup = () => {
         <p className='items-center'>or</p>
         <div className='flex items-center justify-center w-[80%]'>
           {/* Google Login Button */}
-          <GoogleLogineLogin
+          <GoogleLogin
             onSuccess={handleGoogleLogin}  // Handle success response
             onError={(error) => console.error('Google Login Error:', error)}  // Handle error
             useOneTap={true} // Optional, to trigger sign-in automatically in some cases
